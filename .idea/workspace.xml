@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb06156-ab04-41e4-9a71-bd35fad3293f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/font/Shabnam-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/font/Shabnam-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/font/Shabnam-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/font/Shabnam-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/font/Shabnam.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/about-pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/camera.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/main.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +23,11 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="22KmFe8ogDn59QT43XmjF8SqZwU" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -74,8 +66,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639594551690</updated>
-      <workItem from="1639594564843" duration="12329000" />
+      <workItem from="1639594564843" duration="13091000" />
     </task>
+    <task id="LOCAL-00001" summary="main page 50">
+      <created>1639607969763</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639607969763</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,5 +91,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="main page 50" />
+    <option name="LAST_COMMIT_MESSAGE" value="main page 50" />
   </component>
 </project>
