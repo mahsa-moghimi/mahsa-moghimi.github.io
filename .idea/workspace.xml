@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb06156-ab04-41e4-9a71-bd35fad3293f" name="Default Changelist" comment="" />
+    <list default="true" id="cdb06156-ab04-41e4-9a71-bd35fad3293f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Shabnam-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Shabnam-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Shabnam-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Shabnam-Thin.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/font/Shabnam.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/about-pic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/camera.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/main.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,14 +25,32 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="22KmFe8ogDn59QT43XmjF8SqZwU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/font" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\image" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\font" />
+      <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\image" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -43,11 +74,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1639594551690</updated>
-      <workItem from="1639594564843" duration="461000" />
+      <workItem from="1639594564843" duration="12329000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
