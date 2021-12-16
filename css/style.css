@@ -153,6 +153,9 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 /* Colors */
 .hot-pink{color:#000!important;background-color:#FFE6E6!important }
 .hot-pur{color:#000!important;background-color:#FFABE1!important }
+.text-pur,.hover-text-pur:hover,.text-pur,.hover-text-pur:hover{color:#6155A6!important}
+
+
 
 
 .w3-amber,.w3-hover-amber:hover{color:#000!important;background-color:#ffc107!important}
@@ -210,6 +213,8 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .w3-text-black,.w3-hover-text-black:hover{color:#000!important}
 .w3-text-grey,.w3-hover-text-grey:hover,.w3-text-gray,.w3-hover-text-gray:hover{color:#757575!important}
 .w3-text-light-grey,.w3-hover-text-light-grey:hover,.w3-text-light-gray,.w3-hover-text-light-gray:hover{color:#f1f1f1!important}
+
+
 .w3-text-dark-grey,.w3-hover-text-dark-grey:hover,.w3-text-dark-gray,.w3-hover-text-dark-gray:hover{color:#3a3a3a!important}
 .w3-border-amber,.w3-hover-border-amber:hover{border-color:#ffc107!important}
 .w3-border-aqua,.w3-hover-border-aqua:hover{border-color:#00ffff!important}
