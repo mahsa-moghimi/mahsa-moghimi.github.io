@@ -2,10 +2,7 @@
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
 <link rel="stylesheet" href="css/style.css">
-<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">-->
-<!--<link rel="stylesheet" href="assets/font/Shabnam-Bold.ttf">-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <head>
@@ -45,7 +42,9 @@
 
 </style>
 
-<body>
+<body onload="if (localStorage.getItem('isDarkMode') === 'true') {
+    document.body.classList.add('dark-mode');
+} ">
 <div class="w3-top">
     <div class="w3-bar hot-pink w3-card" id="myNavbar">
         <a href="#home" class="w3-bar-item w3-button" onclick="location.href='index.html#home'"><b>ART</b> Gallery</a>
@@ -90,41 +89,48 @@
 
     <!-- Header -->
     <div class="w3-opacity">
-        <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
         <div class="w3-clear"></div>
         <header class="w3-center w3-margin-bottom">
-            <h1><b>تبلیغاتی</b></h1>
-            <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+            <h1><b>گالری</b></h1>
+            <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">جدا کن</button></p>
         </header>
     </div>
 
     <!-- Photo Grid -->
     <div class="w3-row" id="myGrid" style="margin-bottom:128px">
-        <div class="w3-third">
-            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
-            <img src="assets/image/main1.jpg" style="width:100%">
-            <img src="assets/image/mac.jpg" style="width:100%">
-            <img src="assets/image/main.jpg" style="width:100%">
-            <img src="assets/image/about-pic.jpg" style="width:100%">
-            <img src="assets/image/mac.jpg" style="width:100%">
+        <div class="w3-third" style="width: 33.33%">
+            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/main1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/main.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
         </div>
 
-        <div class="w3-third">
-            <img src="assets/image/mac.jpg" style="width:100%">
-            <img src="assets/image/main1.jpg" style="width:100%">
-            <img src="assets/image/about-pic.jpg" style="width:100%">
-            <img src="assets/image/main.jpg" style="width:100%">
-            <img src="assets/image/mac.jpg" style="width:100%">
-            <img src="assets/image/main1.jpg" style="width:100%">
+        <div class="w3-third" style="width: 33.33%">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/main1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/main.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/main1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
         </div>
 
-        <div class="w3-third">
-            <img src="assets/image/about-pic.jpg" style="width:100%">
-            <img src="assets/image/main1.jpg" style="width:100%">
-            <img src="assets/image/mac.jpg" style="width:100%">
-            <img src="assets/image/main.jpg" style="width:100%">
-            <img src="assets/image/about-pic.jpg" style="width:100%">
-            <img src="assets/image/mac.jpg" style="width:100%">
+        <div class="w3-third" style="width: 33.33%">
+            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/main1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/main.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        </div>
+    </div>
+
+    <!-- Modal for full size images on click-->
+    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+        <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image" height="100%">
         </div>
     </div>
 
@@ -203,6 +209,9 @@
     function darkMode() {
         var element = document.body;
         element.classList.toggle("dark-mode");
+        if (localStorage.getItem('isDarkMode') === 'false' || localStorage.getItem('isDarkMode') === null)
+            localStorage.setItem('isDarkMode', true);
+        else localStorage.setItem('isDarkMode', false);
     }
 
 </script>
