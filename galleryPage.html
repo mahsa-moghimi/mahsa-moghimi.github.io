@@ -34,6 +34,15 @@
     .w3-bar .w3-button {
         padding: 16px;
     }
+
+    img {margin-bottom: -7px}
+    .w3-row-padding img {margin-bottom: 12px}
+
+    .dark-mode {
+        background-color: black;
+        color: white;
+    }
+
 </style>
 
 <body>
@@ -42,15 +51,17 @@
         <a href="#home" class="w3-bar-item w3-button" onclick="location.href='index.html#home'"><b>ART</b> Gallery</a>
         <!-- Right-sided navbar links -->
         <div class="w3-right w3-hide-small" >
+            <a href="#home" class="w3-bar-item w3-button"> گالری</a>
+            <a href="#album" class="w3-bar-item w3-button">آلبوم ها</a>
             <a class="w3-bar-item w3-button" onclick="location.href='index.html#about'">درباره من</a>
-            <a href="#home" class="w3-bar-item w3-button"><!--<i class="fa fa-th"></i>--> گالری</a>
-            <a href="#pricing" class="w3-bar-item w3-button"><!--<i class="fa fa-usd"></i>--> PRICING</a>
+
         </div>
         <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
         <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
             <i class="fa fa-bars"></i>
         </a>
+        <a class="w3-bar-item w3-button w3-right" onclick="darkMode()"><i class="fa fa-adjust"></i></a>
     </div>
 </div>
 
@@ -66,7 +77,7 @@
 
 <header class="bgimg-1 w3-display-container" id="home">
         <div class="w3-display-middle w3-margin-top w3-center">
-            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>ART</b></span> <span class="w3-hide-small text-pur">Gallery</span></h1>
+            <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>ART</b></span> <span class="text-pur">Gallery</span></h1>
         </div>
 </header>
 
@@ -74,68 +85,50 @@
 
 
 
+<!-- !PAGE CONTENT! -->
+<div class="w3-content" style="max-width:1500px">
 
-<!-- Page content -->
-<div class="w3-content w3-padding" style="max-width:1564px">
-
-    <!-- Project Section -->
-    <div class="w3-container w3-padding-32" id="projects">
-        <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">آلبوم ها</h3>
+    <!-- Header -->
+    <div class="w3-opacity">
+        <span class="w3-button w3-xxlarge w3-white w3-right" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+        <div class="w3-clear"></div>
+        <header class="w3-center w3-margin-bottom">
+            <h1><b>تبلیغاتی</b></h1>
+            <p class="w3-padding-16"><button class="w3-button w3-black" onclick="myFunction()">Toggle Grid Padding</button></p>
+        </header>
     </div>
 
-    <div class="w3-row-padding">
-        <div class="w3-col l3 m6 w3-margin-bottom" onclick="location.href='advertiseCategory.html'">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">تبلیغاتی</div>
-                <img src="assets/image/mac.jpg" alt="House" style="width:100%">
-            </div>
+    <!-- Photo Grid -->
+    <div class="w3-row" id="myGrid" style="margin-bottom:128px">
+        <div class="w3-third">
+            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A microphone">
+            <img src="assets/image/main1.jpg" style="width:100%">
+            <img src="assets/image/mac.jpg" style="width:100%">
+            <img src="assets/image/main.jpg" style="width:100%">
+            <img src="assets/image/about-pic.jpg" style="width:100%">
+            <img src="assets/image/mac.jpg" style="width:100%">
         </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">عروسی</div>
-                <img src="assets/image/about-pic.jpg" alt="House" style="width:100%">
-            </div>
+
+        <div class="w3-third">
+            <img src="assets/image/mac.jpg" style="width:100%">
+            <img src="assets/image/main1.jpg" style="width:100%">
+            <img src="assets/image/about-pic.jpg" style="width:100%">
+            <img src="assets/image/main.jpg" style="width:100%">
+            <img src="assets/image/mac.jpg" style="width:100%">
+            <img src="assets/image/main1.jpg" style="width:100%">
         </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">پرتره</div>
-                <img src="assets/image/main1.jpg" alt="House" style="width:100%">
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">شخصی</div>
-                <img src="assets/image/camera.png" alt="House" style="width:100%">
-            </div>
+
+        <div class="w3-third">
+            <img src="assets/image/about-pic.jpg" style="width:100%">
+            <img src="assets/image/main1.jpg" style="width:100%">
+            <img src="assets/image/mac.jpg" style="width:100%">
+            <img src="assets/image/main.jpg" style="width:100%">
+            <img src="assets/image/about-pic.jpg" style="width:100%">
+            <img src="assets/image/mac.jpg" style="width:100%">
         </div>
     </div>
 
-    <div class="w3-row-padding">
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-                <img src="/w3images/house2.jpg" alt="House" style="width:99%">
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
-                <img src="/w3images/house5.jpg" alt="House" style="width:99%">
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Renovated</div>
-                <img src="/w3images/house4.jpg" alt="House" style="width:99%">
-            </div>
-        </div>
-        <div class="w3-col l3 m6 w3-margin-bottom">
-            <div class="w3-display-container">
-                <div class="w3-display-topleft w3-black w3-padding">Barn House</div>
-                <img src="/w3images/house3.jpg" alt="House" style="width:99%">
-            </div>
-        </div>
-    </div>
+    <!-- End Page Content -->
 </div>
 
 
@@ -195,6 +188,23 @@
     function w3_close() {
         mySidebar.style.display = "none";
     }
+
+
+    // Toggle grid padding
+    function myFunction() {
+        var x = document.getElementById("myGrid");
+        if (x.className === "w3-row") {
+            x.className = "w3-row-padding";
+        } else {
+            x.className = x.className.replace("w3-row-padding", "w3-row");
+        }
+    }
+
+    function darkMode() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+    }
+
 </script>
 
 
