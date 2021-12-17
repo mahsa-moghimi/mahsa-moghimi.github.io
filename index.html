@@ -40,11 +40,15 @@
         color: white;
     }
 
+
 </style>
 
 <body onload="if (localStorage.getItem('isDarkMode') === 'true') {
     document.body.classList.add('dark-mode');
-} ">
+}"
+      onunload="if (localStorage.getItem('isDarkMode') === 'true') {
+    document.body.classList.add('dark-mode');
+}">
 <div class="w3-top">
     <div class="w3-bar hot-pink w3-card" id="myNavbar">
         <a href="#home" class="w3-bar-item w3-button"><b>ART</b> Gallery</a>
@@ -108,7 +112,7 @@
                 <img src="assets/image/mac.jpg" alt="House" style="width:100%">
             </div>
         </div>
-        <div class="w3-col l3 m6 w3-margin-bottom" >
+        <div class="w3-col l3 m6 w3-margin-bottom">
             <div class="w3-display-container w3-hover-opacity">
                 <div class="w3-display-topleft w3-black w3-padding">عروسی</div>
                 <img src="assets/image/about-pic.jpg" alt="House" style="width:100%">
@@ -235,19 +239,12 @@
         <i class="fa fa-telegram w3-hover-opacity"></i>
         <i class="fa fa-linkedin w3-hover-opacity"></i>
     </div>
-        <p>Designed by <a href="https://t.me/aliyou7" title="W3.CSS" target="_blank" class="w3-hover-text-green">Ali Yousefi</a></p>
+    <p>Designed by <a href="https://t.me/aliyou7" title="W3.CSS" target="_blank" class="w3-hover-text-green">Ali
+        Yousefi</a></p>
 </footer>
 
 
 <script>
-    function onClick(element) {
-        document.getElementById("img01").src = element.src;
-        document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
-        captionText.innerHTML = element.alt;
-    }
-
-
     // Toggle between showing and hiding the sidebar when clicking the menu icon
     var mySidebar = document.getElementById("mySidebar");
 
