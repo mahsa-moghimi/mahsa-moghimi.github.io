@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" onloadstart="if (localStorage.getItem('isDarkMode') === 'true') {
+    document.body.classList.add('dark-mode');
+}">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
@@ -40,6 +42,9 @@
         color: white;
     }
 
+    .dark-mode .w3-light-grey{
+        background-color: darkslategray !important;
+    }
 
 </style>
 
