@@ -25,14 +25,6 @@
         line-height: 1.8;
     }
 
-    /* Full height image header */
-    .bgimg-1 {
-        background-position: center;
-        background-size: cover;
-        background-image: url("assets/image/about-pic.jpg");
-        min-height: 100%;
-    }
-
     .w3-bar .w3-button {
         padding: 16px;
     }
@@ -46,17 +38,9 @@
         margin-bottom: 12px
     }
 
-
-    .dark-mode {
-        background-color: black;
-        color: white;
-    }
-
 </style>
 
-<body onload="if (localStorage.getItem('isDarkMode') === 'true') {
-    document.body.classList.add('dark-mode');
-} ">
+<body>
 <div class="w3-top">
     <div class="w3-bar hot-pink w3-card" id="myNavbar">
         <a class="w3-bar-item w3-button" onclick="location.href='index.html#home'"><b>ART</b> Gallery</a>
@@ -69,20 +53,27 @@
         <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
         <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
-           onclick="w3_open()">
+           onclick="sidebarOpen()">
             <i class="fa fa-bars"></i>
         </a>
-        <a class="w3-bar-item w3-button w3-right" onclick="darkMode()"><i class="fa fa-adjust"></i></a>
+        <nav>
+            <div class="w3-right  w3-bar-item padding-right">
+                <label  for="checkbox">
+                    <input type="checkbox" id="checkbox"/>
+                </label>
+            </div>
+
+        </nav>
     </div>
 </div>
 
 
 <nav class="w3-sidebar w3-bar-block hot-pur w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none"
      id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">بستن ×</a>
-    <a onclick="w3_close(); location.href='galleryPage.html#home'" class="w3-bar-item w3-button">گالری</a>
-    <a onclick="w3_close(); location.href='galleryPage.html#album'" class="w3-bar-item w3-button">آلبوم ها</a>
-    <a onclick="w3_close(); location.href='index.html#about'" class="w3-bar-item w3-button">درباره من</a>
+    <a href="javascript:void(0)" onclick="sidebarClose()" class="w3-bar-item w3-button w3-large w3-padding-16">بستن ×</a>
+    <a onclick="sidebarClose(); location.href='galleryPage.html#home'" class="w3-bar-item w3-button">گالری</a>
+    <a onclick="sidebarClose(); location.href='galleryPage.html#album'" class="w3-bar-item w3-button">آلبوم ها</a>
+    <a onclick="sidebarClose(); location.href='index.html#about'" class="w3-bar-item w3-button">درباره من</a>
 </nav>
 
 
@@ -94,7 +85,7 @@
         <header class="w3-center w3-margin-bottom w3-margin">
             <h1><b>تبلیغاتی</b></h1>
             <p class="w3-padding-16">
-                <button class="w3-button w3-black" onclick="myFunction()">جدا کن</button>
+                <button class="w3-button w3-black" onclick="gridChange()">جدا کن</button>
             </p>
         </header>
     </div>
@@ -102,30 +93,30 @@
     <!-- Photo Grid -->
     <div class="w3-row" id="myGrid" style="margin-bottom:128px">
         <div class="w3-third" style="width: 33.33%">
-            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/main1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/main.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/main1.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/main.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
         </div>
 
         <div class="w3-third" style="width: 33.33%">
-            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/main1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/main.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/main1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/main1.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/main.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/main1.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
         </div>
 
         <div class="w3-third" style="width: 33.33%">
-            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/main1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/main.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/main1.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/main.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/about-pic.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
+            <img src="assets/image/mac.jpg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity">
         </div>
     </div>
 
@@ -157,50 +148,7 @@
 </footer>
 
 
-<script>
-    function onClick(element) {
-        document.getElementById("img01").src = element.src;
-        document.getElementById("modal01").style.display = "block";
-        var captionText = document.getElementById("caption");
-        captionText.innerHTML = element.alt;
-    }
-
-
-    // Toggle between showing and hiding the sidebar when clicking the menu icon
-    var mySidebar = document.getElementById("mySidebar");
-
-    function w3_open() {
-        if (mySidebar.style.display === 'block') {
-            mySidebar.style.display = 'none';
-        } else {
-            mySidebar.style.display = 'block';
-        }
-    }
-
-    // Close the sidebar with the close button
-    function w3_close() {
-        mySidebar.style.display = "none";
-    }
-
-    // Toggle grid padding
-    function myFunction() {
-        var x = document.getElementById("myGrid");
-        if (x.className === "w3-row") {
-            x.className = "w3-row-padding";
-        } else {
-            x.className = x.className.replace("w3-row-padding", "w3-row");
-        }
-    }
-
-    function darkMode() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-        if (localStorage.getItem('isDarkMode') === 'false' || localStorage.getItem('isDarkMode') === null)
-            localStorage.setItem('isDarkMode', true);
-        else localStorage.setItem('isDarkMode', false);
-    }
-
-</script>
+<script src="js/script.js"></script>
 
 
 </body>

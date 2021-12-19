@@ -34,23 +34,9 @@
         padding: 16px;
     }
 
-    .dark-mode {
-        background-color: black;
-        color: white;
-    }
-
-    .dark-mode .w3-light-grey{
-        background-color: darkslategray !important;
-    }
-
 </style>
 
-<body onload="if (localStorage.getItem('isDarkMode') === 'true') {
-    document.body.classList.add('dark-mode');
-}"
-      onunload="if (localStorage.getItem('isDarkMode') === 'true') {
-    document.body.classList.add('dark-mode');
-}">
+<body>
 <div class="w3-top">
     <div class="w3-bar hot-pink w3-card" id="myNavbar">
         <a href="#home" class="w3-bar-item w3-button"><b>ART</b> Gallery</a>
@@ -62,33 +48,29 @@
         </div>
         <!-- Hide right-floated links on small screens and replace them with a menu icon -->
         <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
-           onclick="w3_open()">
+           onclick="sidebarOpen()">
             <i class="fa fa-bars"></i>
         </a>
-        <a class="w3-bar-item w3-button w3-right" onclick="darkMode()" id="darkmode"><i class="fa fa-adjust"></i></a>
 
+<!--        <nav>-->
+<!--            <div class="script-switch-wrapper">-->
+<!--                <label class="script-switch" for="checkbox">-->
+<!--                    <input type="checkbox" id="checkbox" />-->
+<!--                    <div class="slider round"></div>-->
+<!--                </label>-->
+<!--                <em>Enable Dark Mode!</em>-->
+<!--            </div>-->
+
+<!--        </nav>-->
 
         <nav>
-            <div class="theme-switch-wrapper">
-                <label class="theme-switch" for="checkbox">
-                    <input type="checkbox" id="checkbox" />
-                    <div class="slider round"></div>
+            <div class="w3-right  w3-bar-item padding-right">
+                <label  for="checkbox">
+                    <input type="checkbox" id="checkbox"/>
                 </label>
-                <em>Enable Dark Mode!</em>
             </div>
 
         </nav>
-
-
-
-
-        <div class="buttons">
-            <!-- botão para fazer a troca de estados dark/light -->
-            <button id="toggle" class="button">toggle</button>
-            <!-- botão para atualizar a página -->
-            <button id="refresh" class="button">refresh</button>
-        </div>
-
 
 
     </div>
@@ -97,10 +79,10 @@
 
 <nav class="w3-sidebar w3-bar-block hot-pur w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none"
      id="mySidebar">
-    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">بستن ×</a>
-    <a onclick="w3_close(); location.href='galleryPage.html'" class="w3-bar-item w3-button">گالری</a>
-    <a href="#album" onclick="w3_close()" class="w3-bar-item w3-button">آلبوم ها</a>
-    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">درباره من</a>
+    <a href="javascript:void(0)" onclick="sidebarClose()" class="w3-bar-item w3-button w3-large w3-padding-16">بستن ×</a>
+    <a onclick="sidebarClose(); location.href='galleryPage.html'" class="w3-bar-item w3-button">گالری</a>
+    <a href="#album" onclick="sidebarClose()" class="w3-bar-item w3-button">آلبوم ها</a>
+    <a href="#about" onclick="sidebarClose()" class="w3-bar-item w3-button">درباره من</a>
 </nav>
 
 
@@ -131,6 +113,8 @@
     <div class="w3-container w3-padding-32" id="album">
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">آلبوم ها</h3>
     </div>
+
+
 
     <div class="w3-row-padding">
         <div class="w3-col l3 m6 w3-margin-bottom" onclick="location.href='advertiseCategory.html'">
@@ -271,57 +255,7 @@
 </footer>
 
 
-<script>
-    // Toggle between showing and hiding the sidebar when clicking the menu icon
-    var mySidebar = document.getElementById("mySidebar");
-
-    function w3_open() {
-        if (mySidebar.style.display === 'block') {
-            mySidebar.style.display = 'none';
-        } else {
-            mySidebar.style.display = 'block';
-        }
-    }
-
-    // Close the sidebar with the close button
-    function w3_close() {
-        mySidebar.style.display = "none";
-    }
-
-
-    function darkMode() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-        if (localStorage.getItem('isDarkMode') === 'false' || localStorage.getItem('isDarkMode') === null)
-            localStorage.setItem('isDarkMode', true);
-        else localStorage.setItem('isDarkMode', false);
-    }
-
-
-
-
-    const toggle = document.getElementById("toggle");
-    const refresh = document.getElementById("refresh");
-    const theme = window.localStorage.getItem("theme");
-
-    /* verifica se o tema armazenado no localStorage é escuro
-    se sim aplica o tema escuro ao body */
-    if (theme === "dark") document.body.classList.add("dark");
-
-    // event listener para quando o botão de alterar o tema for clicado
-    toggle.addEventListener("click", () => {
-        document.body.classList.toggle("dark");
-        if (theme === "dark") {
-            window.localStorage.setItem("theme", "light");
-        } else window.localStorage.setItem("theme", "dark");
-    });
-
-    refresh.addEventListener("click", () => {
-        window.location.reload();
-    });
-
-
-</script>
+<script src="js/script.js"></script>
 
 
 </body>
