@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb06156-ab04-41e4-9a71-bd35fad3293f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +32,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/font" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/image" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
@@ -70,7 +71,8 @@
       <workItem from="1639660164677" duration="13955000" />
       <workItem from="1639733392084" duration="6950000" />
       <workItem from="1639771818445" duration="14659000" />
-      <workItem from="1639928343573" duration="16209000" />
+      <workItem from="1639928343573" duration="16461000" />
+      <workItem from="1639954672539" duration="229000" />
     </task>
     <task id="LOCAL-00001" summary="main page 50">
       <created>1639607969763</created>
@@ -170,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639952614882</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="lazy load added">
+      <created>1639954129330</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1639954129330</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -202,6 +211,7 @@
     <MESSAGE value="aliyousefi changed" />
     <MESSAGE value="change theme method test" />
     <MESSAGE value="scripts separated, dark mode completed, some optimization" />
-    <option name="LAST_COMMIT_MESSAGE" value="scripts separated, dark mode completed, some optimization" />
+    <MESSAGE value="lazy load added" />
+    <option name="LAST_COMMIT_MESSAGE" value="lazy load added" />
   </component>
 </project>
