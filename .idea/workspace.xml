@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb06156-ab04-41e4-9a71-bd35fad3293f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,7 +71,8 @@
       <workItem from="1639594564843" duration="13909000" />
       <workItem from="1639660164677" duration="13955000" />
       <workItem from="1639733392084" duration="6950000" />
-      <workItem from="1639771818445" duration="14117000" />
+      <workItem from="1639771818445" duration="14659000" />
+      <workItem from="1639928343573" duration="2849000" />
     </task>
     <task id="LOCAL-00001" summary="main page 50">
       <created>1639607969763</created>
@@ -148,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639787964594</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="aliyousefi changed">
+      <created>1639788322129</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1639788322129</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +187,7 @@
     <MESSAGE value="gallery page routing changed" />
     <MESSAGE value="Dark mode implemented, hover, image view completed, image on small screen completed" />
     <MESSAGE value="some change" />
-    <option name="LAST_COMMIT_MESSAGE" value="some change" />
+    <MESSAGE value="aliyousefi changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="aliyousefi changed" />
   </component>
 </project>

@@ -66,6 +66,31 @@
             <i class="fa fa-bars"></i>
         </a>
         <a class="w3-bar-item w3-button w3-right" onclick="darkMode()" id="darkmode"><i class="fa fa-adjust"></i></a>
+
+
+        <nav>
+            <div class="theme-switch-wrapper">
+                <label class="theme-switch" for="checkbox">
+                    <input type="checkbox" id="checkbox" />
+                    <div class="slider round"></div>
+                </label>
+                <em>Enable Dark Mode!</em>
+            </div>
+
+        </nav>
+
+
+
+
+        <div class="buttons">
+            <!-- botão para fazer a troca de estados dark/light -->
+            <button id="toggle" class="button">toggle</button>
+            <!-- botão para atualizar a página -->
+            <button id="refresh" class="button">refresh</button>
+        </div>
+
+
+
     </div>
 </div>
 
@@ -271,6 +296,29 @@
             localStorage.setItem('isDarkMode', true);
         else localStorage.setItem('isDarkMode', false);
     }
+
+
+
+
+    const toggle = document.getElementById("toggle");
+    const refresh = document.getElementById("refresh");
+    const theme = window.localStorage.getItem("theme");
+
+    /* verifica se o tema armazenado no localStorage é escuro
+    se sim aplica o tema escuro ao body */
+    if (theme === "dark") document.body.classList.add("dark");
+
+    // event listener para quando o botão de alterar o tema for clicado
+    toggle.addEventListener("click", () => {
+        document.body.classList.toggle("dark");
+        if (theme === "dark") {
+            window.localStorage.setItem("theme", "light");
+        } else window.localStorage.setItem("theme", "dark");
+    });
+
+    refresh.addEventListener("click", () => {
+        window.location.reload();
+    });
 
 
 </script>

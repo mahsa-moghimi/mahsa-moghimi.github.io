@@ -154,6 +154,141 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .hot-pink{color:#000!important;background-color:#FFE6E6!important }
 .hot-pur{color:#000!important;background-color:#FFABE1!important }
 .text-pur,.hover-text-pur:hover,.text-pur,.hover-text-pur:hover{color:#6155A6!important}
+/*slider switch css */
+.theme-switch-wrapper {
+    display: flex;
+    align-items: center;
+
+}
+.theme-switch {
+    display: inline-block;
+    height: 34px;
+    position: relative;
+    width: 60px;
+}
+
+.theme-switch input {
+    display:none;
+}
+
+.slider {
+    background-color: #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+}
+
+.slider:before {
+    background-color: #fff;
+    bottom: 4px;
+    content: "";
+    height: 26px;
+    left: 4px;
+    position: absolute;
+    transition: .4s;
+    width: 26px;
+}
+
+input:checked + .slider {
+    background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+
+body {
+    /* cores de texto */
+    --text-white: #ffffff;
+    --text-dark: #142136;
+
+    /* cores de fundo */
+    --bg-grey-light: #f5f5f5;
+    --bg-white: #ffffff;
+    --bg-blue-dark: #142136;
+    --bg-indigo: #6366f1;
+
+    font-family: "Inter", sans-serif;
+    line-height: 1.7;
+    background-color: var(--bg-grey-light);
+}
+.dark {
+    --text-white: #e6e6e6;
+    --text-dark: #ffffff;
+    --bg-grey-light: #142136;
+    --bg-white: #22395d;
+    --bg-blue-dark: #142136;
+    --bg-indigo: #7577e1;
+}
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+}
+.text-wrapper {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--bg-white);
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.paragraph {
+    font-size: 16px;
+    color: var(--text-dark);
+}
+.heading {
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    color: var(--text-dark);
+}
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.button {
+    width: 200px;
+    padding: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-family: inherit;
+    cursor: pointer;
+    background-color: var(--bg-indigo);
+    color: var(--text-white);
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+
+
 
 
 

@@ -105,7 +105,7 @@
     <!-- Photo Grid -->
     <div class="w3-row" id="myGrid" style="margin-bottom:128px">
         <div class="w3-third" style="width: 33.33%">
-            <img src="assets/image/main1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="https://mcdn.wallpapersafari.com/medium/24/83/xtr3GD.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
             <img src="assets/image/main1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
             <img src="assets/image/mac.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
             <img src="assets/image/main.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
@@ -204,6 +204,15 @@
             localStorage.setItem('isDarkMode', true);
         else localStorage.setItem('isDarkMode', false);
     }
+
+
+
+
+    const theme = window.localStorage.getItem("theme");
+
+    /* verifica se o tema armazenado no localStorage é escuro
+    se sim aplica o tema escuro ao body */
+    if (theme === "dark") document.body.classList.add("dark");
 
 </script>
 
