@@ -2,8 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb06156-ab04-41e4-9a71-bd35fad3293f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads10.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads11.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads12.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads13.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads14.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads15.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads16.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads17.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads18.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads19.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads20.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads21.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads22.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads23.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads24.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads25.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads26.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads27.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads28.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads29.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads30.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads31.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads32.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads33.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads34.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads35.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads36.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads37.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads38.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads39.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads40.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads41.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads42.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads43.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads44.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads45.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads46.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads6.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads7.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads8.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads/ads9.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/ads0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/portrait/portrait1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/portrait/portrait2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/portrait/portrait3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/portrait/portrait4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/portrait0.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/etcCategory.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portraitCategory.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advertiseCategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/advertiseCategory.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image/mac.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/galleryPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/galleryPage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weddingCategory.html" beforeDir="false" afterPath="$PROJECT_DIR$/weddingCategory.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,14 +91,16 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/image" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/image/portrait" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\font" />
+      <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\image\portrait" />
+      <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\image\ads" />
       <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\image" />
+      <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\font" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\image" />
@@ -72,7 +133,8 @@
       <workItem from="1639733392084" duration="6950000" />
       <workItem from="1639771818445" duration="14659000" />
       <workItem from="1639928343573" duration="16461000" />
-      <workItem from="1639954672539" duration="229000" />
+      <workItem from="1639954672539" duration="657000" />
+      <workItem from="1640032244805" duration="3189000" />
     </task>
     <task id="LOCAL-00001" summary="main page 50">
       <created>1639607969763</created>
@@ -179,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639954129330</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="image localed">
+      <created>1639955045721</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1639955045721</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +281,7 @@
     <MESSAGE value="change theme method test" />
     <MESSAGE value="scripts separated, dark mode completed, some optimization" />
     <MESSAGE value="lazy load added" />
-    <option name="LAST_COMMIT_MESSAGE" value="lazy load added" />
+    <MESSAGE value="image localed" />
+    <option name="LAST_COMMIT_MESSAGE" value="image localed" />
   </component>
 </project>
