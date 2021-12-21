@@ -167,7 +167,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 
 /* Colors */
-.hot-pink{color:var(--text-color)!important;background-color:var(--header-color)!important }
+.hot-pink{color:var(--text-color)!important;background-color:var(--header-color)!important;transition: background-color 0.2s linear; }
 /*.hot-pink{color:var(--text-color)!important;background-color:#FFE6E6!important }*/
 .hot-pur{color:#000!important;background-color:#FFABE1!important }
 .text-pur,.hover-text-pur:hover,.text-pur,.hover-text-pur:hover{color:#6155A6!important}
@@ -270,6 +270,7 @@ body {
 .dark .w3-light-grey{
     background-color: darkslategray !important;
     color: var(--text-color) !important;
+    transition: background-color 0.2s linear;
 }
 
 /*.dark .hot-pink {color:var(--text-color)!important;background-color:#FFE6E6!important }*/
