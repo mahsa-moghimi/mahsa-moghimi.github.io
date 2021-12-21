@@ -5,6 +5,11 @@
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+
+<!--<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.1/css/all.min.css'>-->
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap"rel="stylesheet'>
+<link rel="stylesheet" href="./style.css">
+
 <head>
     <meta charset="UTF-8">
     <title>Mahsa Moghimi</title>
@@ -88,13 +93,9 @@
 
 <header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
     <div class="w3-display-bottomleft w3-text-grey w3-large" style="padding:24px 48px">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
         <i class="fa fa-instagram w3-hover-opacity"
            onclick="location.href='https://instagram.com/m_moghimi_graphy'"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <i class="fa fa-telegram w3-hover-opacity" onclick="location.href='https://t.me/mahsa_moghimii'"></i>
     </div>
 
     <div class="w3-display-middle w3-padding-large w3-border w3-wide w3-text-light-grey w3-center">
@@ -106,11 +107,122 @@
 </header>
 
 
+
+
+<div class="app" id="album">
+    <div class="cardList">
+        <button class="cardList__btn btn btn--left">
+            <div class="icon">
+                <svg>
+                    <use xlink:href="#arrow-left"></use>
+                </svg>
+            </div>
+        </button>
+        <div class="cards__wrapper">
+            <div class="card current--card" onclick="location.href='advertiseCategory.html'">
+                <div class="card__image">
+                    <img src="1.jpeg" alt="" />
+                </div>
+            </div>
+
+            <div class="card next--card" onclick="location.href='weddingCategory.html'">
+                <div class="card__image">
+                    <img src="2.jpeg" alt="" />
+                </div>
+            </div>
+            <div class="card previous--card" onclick="location.href='portraitCategory.html'">
+                <div class="card__image">
+                    <img src="3.jpeg" alt="" />
+                </div>
+            </div>
+        </div>
+        <button class="cardList__btn btn btn--right">
+            <div class="icon">
+                <svg>
+                    <use xlink:href="#arrow-right"></use>
+                </svg>
+            </div>
+        </button>
+    </div>
+    <!---- and more ----->
+
+
+    <div class="infoList">
+        <div class="info__wrapper">
+            <div class="info current--info">
+                <h1 class="text name">تبلیغاتی</h1>
+                <h4 class="text location">تبلیغاتی</h4>
+                <p class="text description">عکاسی حرفه های برای دیده شدن</p>
+            </div>
+            <div class="info next--info">
+                <h1 class="text name">آتلیه عروس</h1>
+                <h4 class="text location">آتلیه عروس</h4>
+                <p class="text description">ثبت لحظات زیبا شما</p>
+            </div>
+            <div class="info previous--info">
+                <h1 class="text name">پرتره</h1>
+                <h4 class="text location">پرتره</h4>
+                <p class="text description">عکس های خاص و حرفه ای</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="app__bg">
+        <div class="app__bg__image current--image">
+            <img src="1.jpeg" alt="" />
+        </div>
+        <div class="app__bg__image next--image">
+            <img src="2.jpeg" alt="" />
+        </div>
+        <div class="app__bg__image previous--image">
+            <img src="3.jpeg" alt="" />
+        </div>
+    </div>
+
+
+
+    <div class="loading__wrapper">
+        <div class="loader--text">Loading...</div>
+        <div class="loader">
+            <span></span>
+        </div>
+    </div>
+
+
+
+    <svg class="icons" style="display: none;">
+        <symbol id="arrow-left" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='328 112 184 256 328 400'
+                      style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+        <symbol id="arrow-right" xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'>
+            <polyline points='184 112 328 256 184 400'
+                      style='fill:none;stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:48px' />
+        </symbol>
+    </svg>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
 
     <!-- Project Section -->
-    <div class="w3-container w3-padding-32" id="album">
+    <div class="w3-container w3-padding-32">
         <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">آلبوم ها</h3>
     </div>
 
@@ -240,23 +352,45 @@
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--footer-->
 <footer class="w3-center w3-black w3-padding-64">
     <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right w3-margin-left"></i></a>
     <div class="w3-xlarge w3-section">
         <i class="fa fa-instagram w3-hover-opacity"
            onclick="location.href='https://instagram.com/m_moghimi_graphy'"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-telegram w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <i class="fa fa-telegram w3-hover-opacity" onclick="location.href='https://t.me/mahsa_moghimii'"></i>
     </div>
-    <p>Designed by <a href="https://instagram.com/ali_you7" title="W3.CSS" target="_blank" class="w3-hover-text-green">Ali
+    <p>Designed by <a href="https://t.me/aliyou7" title="W3.CSS" target="_blank" class="w3-hover-text-green">Ali
         Yousefi</a></p>
 </footer>
 
 
 <script src="js/script.js"></script>
 
+
+
+
+
+<script src='https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.3/gsap.min.js'></script>
+<script  src="./script.js"></script>
 
 </body>
 </html>

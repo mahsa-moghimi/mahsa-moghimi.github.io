@@ -2,12 +2,15 @@
 <html lang="en">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
 <link rel="stylesheet" href="css/style.css">
+<!--<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">-->
+<!--<link rel="stylesheet" href="assets/font/Shabnam-Bold.ttf">-->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <head>
     <meta charset="UTF-8">
-    <title>Gallery</title>
+    <title>advertise</title>
     <link rel="shortcut icon" href="assets/image/camera.png"/>
 </head>
 
@@ -22,17 +25,10 @@
         line-height: 1.8;
     }
 
-    /* Full height image header */
-    .bgimg-1 {
-        background-position: center;
-        background-size: cover;
-        background-image: url("assets/image/about-pic.jpg");
-        min-height: 100%;
-    }
-
     .w3-bar .w3-button {
         padding: 16px;
     }
+
 
     img {
         margin-bottom: -7px
@@ -42,19 +38,17 @@
         margin-bottom: 12px
     }
 
-
 </style>
 
 <body>
 <div class="w3-top">
     <div class="w3-bar hot-pink w3-card" id="myNavbar">
-        <a href="#home" class="w3-bar-item w3-button" onclick="location.href='index.html#home'"><b>ART</b> Gallery</a>
+        <a class="w3-bar-item w3-button" onclick="location.href='index.html#home'"><b>ART</b> Gallery</a>
         <!-- Right-sided navbar links -->
         <div class="w3-right w3-hide-small">
-            <a href="#home" class="w3-bar-item w3-button"> گالری</a>
+            <a class="w3-bar-item w3-button" onclick="location.href='galleryPage.html#home'"> گالری</a>
             <a class="w3-bar-item w3-button" onclick="location.href='index.html#album'">آلبوم ها</a>
             <a class="w3-bar-item w3-button" onclick="location.href='index.html#about'">درباره من</a>
-
         </div>
         <!-- Hide right-floated links on small screens and replace them with a menu icon -->
 
@@ -64,7 +58,7 @@
         </a>
         <nav>
             <div class="w3-right  w3-bar-item padding-right">
-                <label for="checkbox">
+                <label  for="checkbox">
                     <input type="checkbox" id="checkbox"/>
                 </label>
             </div>
@@ -76,29 +70,20 @@
 
 <nav class="w3-sidebar w3-bar-block hot-pur w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none"
      id="mySidebar">
-    <a href="javascript:void(0)" onclick="sidebarClose()" class="w3-bar-item w3-button w3-large w3-padding-16">بستن
-        ×</a>
-    <a href="#home" onclick="sidebarClose()" class="w3-bar-item w3-button">گالری</a>
-    <a onclick="sidebarClose(); location.href='index.html#album'" class="w3-bar-item w3-button">آلبوم ها</a>
+    <a href="javascript:void(0)" onclick="sidebarClose()" class="w3-bar-item w3-button w3-large w3-padding-16">بستن ×</a>
+    <a onclick="sidebarClose(); location.href='galleryPage.html#home'" class="w3-bar-item w3-button">گالری</a>
+    <a onclick="sidebarClose(); location.href='galleryPage.html#album'" class="w3-bar-item w3-button">آلبوم ها</a>
     <a onclick="sidebarClose(); location.href='index.html#about'" class="w3-bar-item w3-button">درباره من</a>
 </nav>
 
 
-<header class="bgimg-1 w3-display-container" id="home">
-    <div class="w3-display-middle w3-margin-top w3-center">
-        <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>ART</b></span> <span
-                class="text-pur">Gallery</span></h1>
-    </div>
-</header>
-
-
 <!-- !PAGE CONTENT! -->
-<div class="w3-content" style="max-width:1500px">
-
+<div class="w3-content" style="max-width:1500px" id="home">
     <!-- Header -->
-    <div class="w3-opacity">
-        <div class="w3-clear"></div>
-        <header class="w3-center w3-margin-bottom">
+    <div class="w3-opacity w3-margin-top w3-padding-top-24">
+        <div class="w3-clear w3-margin-top"></div>
+        <header class="w3-center w3-margin-bottom w3-margin">
+            <h1><b>متفرقه</b></h1>
             <p class="w3-padding-16">
                 <button class="w3-button w3-black" onclick="gridChange()">جدا کن</button>
             </p>
@@ -113,18 +98,17 @@
 
         <div class="w3-third" style="width: 33.33%">
             <img src="assets/image/portrait/portrait2.jpeg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity" loading="lazy">
-            <img src="assets/image/portrait/portrait3.jpeg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity" loading="lazy">
         </div>
 
         <div class="w3-third" style="width: 33.33%">
             <img src="assets/image/portrait/portrait4.jpeg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity" loading="lazy">
+            <img src="assets/image/portrait/portrait3.jpeg" style="width:100%" onclick="openImage(this)" class="w3-hover-opacity" loading="lazy">
         </div>
     </div>
 
-    <!-- Modal for full size images on click-->
+
     <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-        <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright"
-              title="Close Modal Image">×</span>
+        <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
         <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
             <img id="img01" class="w3-image" height="100%">
         </div>
@@ -136,17 +120,14 @@
 
 <!--footer-->
 <footer class="w3-center w3-black w3-padding-64">
-    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>بریم بالا</a>
+    <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right w3-margin-left"></i></a>
     <div class="w3-xlarge w3-section">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i>
         <i class="fa fa-instagram w3-hover-opacity"
            onclick="location.href='https://instagram.com/m_moghimi_graphy'"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <i class="fa fa-linkedin w3-hover-opacity"></i>
+        <i class="fa fa-telegram w3-hover-opacity" onclick="location.href='https://t.me/mahsa_moghimii'"></i>
     </div>
-    <!--    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>-->
+    <p>Designed by <a href="https://t.me/aliyou7" title="W3.CSS" target="_blank" class="w3-hover-text-green">Ali
+        Yousefi</a></p>
 </footer>
 
 
