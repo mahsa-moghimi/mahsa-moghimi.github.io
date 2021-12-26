@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb06156-ab04-41e4-9a71-bd35fad3293f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/image/about-pic.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/image/gallery-pic.jpeg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/image/about-pic.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/image/main.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galleryPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/galleryPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +82,7 @@
       <workItem from="1640094946545" duration="5486000" />
       <workItem from="1640254755895" duration="2228000" />
       <workItem from="1640500159315" duration="3301000" />
-      <workItem from="1640533653887" duration="4371000" />
+      <workItem from="1640533653887" duration="4712000" />
     </task>
     <task id="LOCAL-00001" summary="main page 50">
       <created>1639607969763</created>
@@ -246,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640535481671</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="pics changes and min screen implemented">
+      <created>1640538292356</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1640538292356</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +283,7 @@
     <MESSAGE value="album view added, footer completed" />
     <MESSAGE value="some change" />
     <MESSAGE value="arrow and album pic size modified" />
-    <option name="LAST_COMMIT_MESSAGE" value="arrow and album pic size modified" />
+    <MESSAGE value="pics changes and min screen implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="pics changes and min screen implemented" />
   </component>
 </project>
