@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb06156-ab04-41e4-9a71-bd35fad3293f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/image/about-pic.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/image/gallery-pic.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image/about-pic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/image/main.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galleryPage.html" beforeDir="false" afterPath="$PROJECT_DIR$/galleryPage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,16 +45,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\image" />
+      <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website" />
       <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\image\portrait" />
       <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\image\ads" />
       <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\image" />
       <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\font" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website" />
-      <recent name="C:\Users\Ali Yousefi\WebstormProjects\art-website\assets\image" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -84,7 +90,7 @@
       <workItem from="1640094946545" duration="5486000" />
       <workItem from="1640254755895" duration="2228000" />
       <workItem from="1640500159315" duration="3301000" />
-      <workItem from="1640533653887" duration="1484000" />
+      <workItem from="1640533653887" duration="4371000" />
     </task>
     <task id="LOCAL-00001" summary="main page 50">
       <created>1639607969763</created>
@@ -233,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640256416976</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="arrow and album pic size modified">
+      <created>1640535481671</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1640535481671</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,6 +283,7 @@
     <MESSAGE value="test.html added" />
     <MESSAGE value="album view added, footer completed" />
     <MESSAGE value="some change" />
-    <option name="LAST_COMMIT_MESSAGE" value="some change" />
+    <MESSAGE value="arrow and album pic size modified" />
+    <option name="LAST_COMMIT_MESSAGE" value="arrow and album pic size modified" />
   </component>
 </project>

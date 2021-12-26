@@ -45,7 +45,7 @@ button:focus {
     width: 100%;
     height: 100%;
     z-index: -5;
-    filter: blur(8px);
+    /*filter: blur(8px);*/
     pointer-events: none;
     user-select: none;
     overflow: hidden;
@@ -232,13 +232,13 @@ button:focus {
     width: fit-content;
 }
 .info .name,
-.info .location {
+.info .category {
     text-transform: uppercase;
 }
-.info .location {
+.info .category {
     font-weight: 800;
 }
-.info .location {
+.info .category {
     --mg-left: 40px;
     --text-size-offset: 0.12;
     font-weight: 600;
@@ -246,19 +246,20 @@ button:focus {
     margin-bottom: calc(var(--mg-left) / 2);
     padding-bottom: 0.8rem;
 }
-.info .location::before, .info .location::after {
+
+.info .category::before, .info .category::after {
     content: "";
     position: absolute;
     background: #fff;
     left: 0%;
     transform: translate(calc(-1 * var(--mg-left)), -50%);
 }
-.info .location::before {
+.info .category::before {
     top: 50%;
     width: 20px;
     height: 5px;
 }
-.info .location::after {
+.info .category::after {
     bottom: 0;
     width: 60px;
     height: 2px;
@@ -277,7 +278,7 @@ button:focus {
 }
 
 .loading__wrapper {
-    position: fixed;
+    /*position: fixed;*/
     left: 0;
     top: 0;
     width: 100%;
@@ -291,7 +292,6 @@ button:focus {
 }
 .loading__wrapper .loader--text {
     color: #fff;
-    font-family: "Montserrat";
     font-weight: 500;
     margin-bottom: 1.4rem;
 }
@@ -324,4 +324,17 @@ button:focus {
         --card-width: 125px;
         --card-height: 200px;
     }
+
+    .info .name {
+        --text-size-offset: 0.3;
+    }
+
+    .info .category {
+        --text-size-offset: 0.15;
+    }
+
+    .info .description {
+        --text-size-offset: 0.1;
+    }
+
 }
