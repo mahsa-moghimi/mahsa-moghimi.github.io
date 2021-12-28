@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb06156-ab04-41e4-9a71-bd35fad3293f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +84,7 @@
       <workItem from="1640254755895" duration="2228000" />
       <workItem from="1640500159315" duration="3301000" />
       <workItem from="1640533653887" duration="9031000" />
-      <workItem from="1640699803930" duration="6771000" />
+      <workItem from="1640699803930" duration="8352000" />
     </task>
     <task id="LOCAL-00001" summary="main page 50">
       <created>1639607969763</created>
@@ -268,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640706123183</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="final version">
+      <created>1640707180690</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1640707180690</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,6 +317,7 @@
     <MESSAGE value="texts changes" />
     <MESSAGE value="padding and margin changes" />
     <MESSAGE value="theme completed, finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="theme completed, finished" />
+    <MESSAGE value="final version" />
+    <option name="LAST_COMMIT_MESSAGE" value="final version" />
   </component>
 </project>
