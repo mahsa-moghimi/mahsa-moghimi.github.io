@@ -612,7 +612,7 @@ button:focus {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-50%, -50%) translateX(var(--card-translateX-offset)) translateY(var(--card-translateY-offset)) rotateY(var(--card-rotation-offset)) scale(var(--card-scale-offset));
+    transform: translate(-50%, -50%) translateX(var(--card-translateX-offset)) /*translateY(var(--card-translateY-offset))*/ rotateY(var(--card-rotation-offset)) scale(var(--card-scale-offset));
     display: inline-block;
     width: var(--card-width);
     height: var(--card-height);
