@@ -84,7 +84,8 @@
       <workItem from="1640254755895" duration="2228000" />
       <workItem from="1640500159315" duration="3301000" />
       <workItem from="1640533653887" duration="9031000" />
-      <workItem from="1640699803930" duration="8352000" />
+      <workItem from="1640699803930" duration="8575000" />
+      <workItem from="1640709737722" duration="1594000" />
     </task>
     <task id="LOCAL-00001" summary="main page 50">
       <created>1639607969763</created>
@@ -275,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640707180690</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="resources url changes">
+      <created>1640709092298</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1640709092298</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,6 +326,7 @@
     <MESSAGE value="padding and margin changes" />
     <MESSAGE value="theme completed, finished" />
     <MESSAGE value="final version" />
-    <option name="LAST_COMMIT_MESSAGE" value="final version" />
+    <MESSAGE value="resources url changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="resources url changes" />
   </component>
 </project>
