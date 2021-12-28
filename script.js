@@ -3,8 +3,8 @@ console.clear();
 const { gsap, imagesLoaded } = window;
 
 const buttons = {
-    prev: document.querySelector(".btn--left"),
-    next: document.querySelector(".btn--right"),
+    prev: document.getElementById("arrow-left"),
+    next: document.getElementById("arrow-right"),
 };
 const cardsContainerEl = document.querySelector(".cards__wrapper");
 const appBgContainerEl = document.querySelector(".app__bg");
